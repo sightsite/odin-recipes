@@ -1,0 +1,11 @@
+.title {
+    color: green;
+    background-color: red;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    text-align: right;
+}
