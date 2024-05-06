@@ -1,0 +1,13 @@
+.title {
+    color: orange;
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    text-align: right;
+}
