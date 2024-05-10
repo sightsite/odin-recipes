@@ -1,19 +1,17 @@
-.Fili {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+h1 {
+    background-color: #6DC5D1;
+    text-align: center;
 }
 
-.adobo {
-    color: orange;
-    background-color: blue;
+#adobo {
+    background-color: #FDE49E;
+    color: black;
 }
 
-.sinigang {
-    color: yellow;
-    background-color: purple;
+#tinola {
+    background-color: #FEB941;
 }
 
-.tinola {
-    color: green;
-    background-color: red;
+#sinigang {
+    background-color: #DD761C;
 }
