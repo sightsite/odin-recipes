@@ -1,13 +1,55 @@
-.title {
-    color: orange;
-    background-color: blue;
+h1 {
+    background-color: #C40C0C;
     text-align: center;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+#desc {
+    background-color: #FF6500;
+}
+
+#ing {
+    background-color: #FF8A08;
+}
+
+#ste {
+    background-color: #FFC100;
 }
 
 .button {
-    color: white;
-    background-color: black;
-    text-align: right;
+    font-weight: bold;
 }
+
+.right {
+    background-color: #FFC100;
+}
+
+.left {
+    background-color: #C40C0C;
+}
+
+.center {
+    background-color: #FF6500;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    width: 290px;
+    gap: 10px;
+  }

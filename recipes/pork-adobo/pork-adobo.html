@@ -1,15 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="'utf-8">
         <link rel="stylesheet" href="style.css">
         <title>Pork Adobo</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
+<style>
+body{
+  font-family: Lora, serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 46px;  
+}
+</style>
     </head>
     <body>
-        <h1 class="title">Pork Adobo</h1>
+        <h1>Pork Adobo</h1>
         <img src="../images/porkadobo.jpg" alt="Picture of Finished
        Recipe" height="300">
-        <h2>Description</h2>
+        <h2 id="desc">Description</h2>
         <strong>Philippine <em>adobo</em></strong> 
         (from Spanish <em>adobar</em>: "marinade," "sauce" 
         or "seasoning") is a popular Filipino dish and
@@ -21,7 +34,7 @@
         It has occasionally been considered the 
         <em>unofficial national dish</em> 
         in the Philippines.</p>
-        <h2>Ingredients</h2>
+        <h2 id="ing">Ingredients</h2>
         <ul>
             <li>pork belly</li>
             <li>garlic</li>
@@ -32,7 +45,7 @@
             <li>water</li>
             <li>salt</li>
         </ul>
-        <h2>Steps</h2>
+        <h2 id="ste">Steps</h2>
         <ol>
             <li>Combine the pork belly, soy sauce, 
                 and garlic then marinade for at least 
@@ -50,6 +63,18 @@
             <li>Add salt to taste</li>
             <li>Serve hot. Share and enjoy!</li>
         </ol>
-        <a href="../tinola/tinola.html" class="button">NEXT</a>
+        <div>
+            <button class="button left">
+                <a href="/home/kurhtliston/repos/odin-recipes/index.html">
+                    BACK</a>
+            </button>
+            <button class="button center">
+            <a href="/home/kurhtliston/repos/odin-recipes/index.html">
+                HOME
+            </a></button>
+            <button class="button right">
+                <a href="../tinola/tinola.html">
+                    NEXT</a></button></div>
+
     </body>
 </html>
